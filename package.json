@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
+    "production": "./node_modules/.bin/cross-env NODE_ENV=production ./node_modules/.bin/webpack",
     "watch": "./node_modules/.bin/webpack --watch"
   },
   "repository": {
@@ -19,7 +20,14 @@
   },
   "homepage": "https://github.com/MaxTorbeev/webpack-envoverment#readme",
   "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "cross-env": "^3.2.3",
     "css-loader": "^0.27.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
     "style-loader": "^0.13.2",
     "webpack": "^2.2.1"
   }
