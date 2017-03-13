@@ -1,0 +1,26 @@
+{
+  "name": "webpack-envoverment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "watch": "./node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxTorbeev/webpack-envoverment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxTorbeev/webpack-envoverment/issues"
+  },
+  "homepage": "https://github.com/MaxTorbeev/webpack-envoverment#readme",
+  "devDependencies": {
+    "css-loader": "^0.27.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  }
+}
