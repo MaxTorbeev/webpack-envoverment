@@ -2,7 +2,9 @@ logs/*
 !.gitkeep
 node_modules/
 tmp
+dist/
 .idea
+.vscode
 .DS_Store
 bower_components/
 /.git/
